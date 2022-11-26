@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    -webkit-tap-highlight-color: transparent !important;
+    outline: none !important;
+}
+
+body {
+    margin: auto;
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+
+.screen {
+    background: linear-gradient(135deg, #ff05d9, #2e5bff, #33ffb8, #3cff6d, #2e5bff, #ff05d9);
+    background-size: 500% 500%;
+    animation: legendar 20s ease infinite; 
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+}
+
+.main-block {
+    display: flex;
+    width: 75%;
+    height: 75%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    background-color: #65656585;
+    border-radius: 20px;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 0 0 10px #65656532;
+}
+
+.text {
+    text-align: center;
+}
+
+.button {
+    background-color: #7a7a7a;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 10px #65656532;
+}
+
+.button:hover {
+    background-color: #545454;
+}
+
+@keyframes legendar {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
