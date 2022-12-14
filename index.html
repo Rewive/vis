@@ -1,49 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
+    <title>X-mass!</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="Сайт поможет подобрать подарок на новый год, если ты уже провёл не одни сутки в раздумьях что же подарить своим близким на новый год">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Лопатин Иван</title>
 </head>
 
 <body>
-    <div class="screen">
-        <div class="main-block">
-            <div>
-                <h1>Я &ndash; Лопатин Иван!</h1>
-                <hr>
-                </hr>
-            </div>
-            <h2>Почему я решил прийти на данный курс?</h2>
-            <div class="text">
-                <i>"Я решил прийти на данный курс, чтобы увеличить свои знания и научиться чему-то новому
-                    :)"</i>
-                <hr>
-                </hr>
-            </div>
-            <div>
-                <h2>Какие мои ожидания от данного курса?</h2>
-            </div>
-            <div class="text">
-                <i>"Я хочу научиться работать с реактивными приложениями, изучить Vue.JS, получше освоить
-                    Node.JS"</i>
-                <hr>
-                </hr>
-            </div>
-            <div>
-                <h2>Что я уже узнал сегодня?</h2>
-            </div>
-            <div class="text">
-                <i>"Сегодня я узнал про несколько новых HTML тегов, таких как: body, title, hr, h1-6, p"</i>
-                <hr>
-                </hr>
-            </div>
-            <div class="text">
-                <b>16.11.2022</b>
-            </div>
-            <a class="button" href="/it/dub.html">Упрощённая версия</a>
+    <header>
+        <div class="head" id="head">
+            <h1>X-mass &mdash; это сервис который поможет с выбором подарка на новый год!</h1>
         </div>
+    </header>
+    <main>
+        <div class="main-notify">
+            <h2>Скорее кликни на подарок!</h2>
+        </div>
+        <section class="gift-block" id="gift">
+            <div class="modal-gift">
+                <button class="gift-click-btn" id="gift-button"><img class="gift-click"
+                        src="https://www.pngplay.com/wp-content/uploads/13/New-Year-Gift-Transparent-Image.png"
+                        alt="Новогодний подарок"></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-block">
+            <h3 class="footer">Сайт разработан с любовью командой #team_name</h3>
+            <nav>
+                <a href="#head">Наверх</a>
+                <a href="https://vk.com" target="_blank" alt="Наш VK">VK</a>
+                <a href="https://web.telegram.org/" target="_blank" alt="Наш TG">TG</a>
+            </nav>
+        </div>
+    </footer>
 </body>
+
+<script>
+    const el = document.getElementById("gift-button");
+    el.addEventListener("click", GetGift);
+
+    let img = "https://sun9-west.userapi.com/sun9-56/s/v1/ig2/B88GsJetkNgvUDuz5gQvVQLyYEdzxrDDup97oaUsJ9snrUZ_A5KC3KkjmT-Ged5-8AHPG8ThnM7iRLKcq4swkQPV.jpg?size=1000x1000&quality=95&type=album"
+    let description = "электровеник"
+    let gift = '<div class="modal-gift"><img class="gift-img" src="' + img + '" alt="' + description + '"><p class="gift">Советуем тебе подарить своему близкому ' + description + '!</p><button id="next-button" class="next-button">Открыть ещё!</button></div>'
+
+    function GetGift(event) {
+        document.getElementById('gift').innerHTML = gift
+    }
+
+</script>
 
 </html>
