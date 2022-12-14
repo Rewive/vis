@@ -1,76 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-* {
-    -webkit-tap-highlight-color: transparent !important;
-    outline: none !important;
-}
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
 
 body {
-    margin: auto;
-    font-family: Roboto;
-    font-style: normal;
-    color: white;
-    text-decoration: none;
+  font-family: 'Comfortaa', cursive;
 }
 
-
-.screen {
-    background: linear-gradient(135deg, #ff05d9, #2e5bff, #33ffb8, #3cff6d, #2e5bff, #ff05d9);
-    background-size: 500% 500%;
-    animation: legendar 20s ease infinite; 
-    justify-content: center;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    align-content: center;
-    align-items: center;
+.head {
+  text-align: center;
 }
 
-.main-block {
-    display: flex;
-    width: 75%;
-    height: 75%;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    flex-direction: column;
-    background-color: #65656585;
-    border-radius: 20px;
-    padding: 15px;
-    align-items: center;
-    box-shadow: 0 0 10px #65656532;
+.main-notify {
+  text-align: center;
 }
 
-.text {
-    text-align: center;
+.modal-gift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.button {
-    background-color: #7a7a7a;
-    padding: 15px;
-    margin-top: 25px;
-    border-radius: 20px;
-    font-family: Roboto;
-    font-style: normal;
-    color: white;
-    text-decoration: none;
-    box-shadow: 0 0 10px #65656532;
+.gift-click-btn {
+  border: none;
+  background: none;
 }
 
-.button:hover {
-    background-color: #545454;
+.gift-click {
+  width: 250px;
 }
 
-@keyframes legendar {
-    0% {
-        background-position: 0% 50%;
-    }
+.next-button {
+  border: none;
+  border-radius: 20px;
+  padding: 20px 30px 20px 30px;
+  background-color: #99EE6B;
+  font-family: 'Comfortaa', cursive;
+}
 
-    50% {
-        background-position: 100% 50%;
-    }
+.next-button:hover {
+  background: linear-gradient(#6beec9, #4ab70f);
+}
 
-    100% {
-        background-position: 0% 50%;
-    }
+.gift-block {
+  margin: 200px;
+}
+
+.footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.gift-img {
+  width: 250px;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
