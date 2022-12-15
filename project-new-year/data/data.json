@@ -1,0 +1,44 @@
+{
+    "gifts": [
+        {
+            "description": "Самокат",
+            "img": "https://www.velodrive.ru/upload/resize_cache/iblock/d3f/900_600_0/1563197265275main.jpg"
+        },
+        {
+            "description": "Ноутбук",
+            "img": "https://www.tradeinn.com/f/13887/138872337/asus-rog-g5-g513ic-hn004-15.6-r7-4800h-16gb-512gb-ssd-nvidia-geforce-rtx-3050-4gb-%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA.jpg"
+        },
+        {
+            "description": "Электровеник",
+            "img": "https://cdnmedia.220-volt.ru/content/products/61/61493/images/original/n1200x800_q80/1.jpeg"
+        },
+        {
+            "description": "Конструктор",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lego_Color_Bricks.jpg"
+        },
+        {
+            "description": "Книгу",
+            "img": "https://aif-s3.aif.ru/images/025/251/e4958d706fd2db8491467c7a7e7287bc.jpg"
+        },
+        {
+            "description": "Лава-лампу",
+            "img": "https://lefutur.ru/media/lava-lampa-966-8-4tsveta-h42sm-p-312.jpg"
+        },
+        {
+            "description": "Пылесос",
+            "img": "https://cdn1.ozone.ru/s3/multimedia-5/6005250389.jpg"
+        },
+        {
+            "description": "Синтезатор",
+            "img": "https://avatars.mds.yandex.net/get-mpic/4080967/img_id8802987715989379525.jpeg/orig"
+        },
+        {
+            "description": "RTX4090",
+            "img": "https://www.ixbt.com/img/n1/news/2022/9/3/geforce-ada-4090-web-og-1200x630_0_large.jpg"
+        },
+        {
+            "description": "Геймерские наушники",
+            "img": "https://c.dns-shop.ru/thumb/st4/fit/760/600/468529df39a8d5c31f161081db105b1e/q93_bedfb7bbc04fcaeb89a72c3eecb348efc2d0868027e166d69fc5b95ad2f034ed.png"
+        }
+    ]
+}
